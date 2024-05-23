@@ -123,3 +123,14 @@
 * `const 이름 = [{},{},{}...]`
 * `const 이름 = [{key:value, key:value},{},{}...]`
 * `const 이름 = [{key:[v1,v2], key:value},{},{}...]`
+## 가족관계선택속성
+* `parentNode`, `parentNodeElement`
+* `header>nav` 관계 dom 이 있을때 `nav` 의 부모를 선택할 떄 이용할 수 있다.
+* DOM.parentNode, DOM.parentElement,parentElement 등 ...
+* `childNodes`, `children`
+
+* `firstChild`, `firstElementChild`
+* `lastchild`, `lastElementChild`
+* `previousSibling`, `previousElementSibling`
+* `previousSibling` : 공백포함 이전 형제 속성
+* `previousElementSibling` : 이전 형제 요소만 인식 속성
