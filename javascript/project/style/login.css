@@ -1,0 +1,9 @@
+.no input {
+    color: green;
+    font-weight: 700;
+    background-color: yellow;
+}
+.error_input{
+    color: red;
+    font-weight: 900;
+}

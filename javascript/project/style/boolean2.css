@@ -1,0 +1,5 @@
+.info {background-image: url(https://i.pinimg.com/564x/31/f3/35/31f3354479835d33266408351d521708.jpg); width: 500px; height: 700px;}
+.info p{text-align: center;}
+.info p > input{}
+.info p > button{}
+.info .result{}
