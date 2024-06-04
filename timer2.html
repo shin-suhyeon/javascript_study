@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer2</title>
+    <script src="./script/timer2.js" defer></script>
+    <style>
+        .wrap{width: 800px; height: 800px; margin: 70px auto;}
+        .wrap .slide_container{position: relative;}
+        .wrap .slide_container .slide{width: 800px; height: 800px; background-position: center; position: absolute; left: 0; top: 0; 
+            opacity: 0; transition: opacity 0,3s;
+        }
+        .wrap .slide_container .slide1{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Df4hHHDX-4FSN1pK28Icule4YtqSqS4M9w&s); background-size: cover; opacity: 1;}
+        .wrap .slide_container .slide2{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzvE3V564guM3BAO4QR4Trkt_h2cF62OHNmA&s); background-size: cover;}
+        .wrap .slide_container .slide3{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBcW0xwLyMKmCXVBtSY2haYFzty2vXZGYE0g&s); background-size: cover;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <dlv class="slide_container">
+            <div class="slide slide1">1</div>
+            <div class="slide slide2">2</div>
+            <div class="slide slide3">3</div>
+        </dlv>
+    </div>
+</body>
+</html>
