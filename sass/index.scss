@@ -15,7 +15,7 @@ header{
             > li {
                 margin-right: $m-r100; position: relative;
                 a {}
-                .sub {@include pst_absol; top: 50px;
+                .sub { @include pst_absol; width: max-content; top: 50px;
                     li {
                         a{
                             font-size: $font91;

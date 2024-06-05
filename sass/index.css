@@ -39,6 +39,8 @@ header > nav .gnb > li .sub {
   width: 100%;
   left: 0;
   top: 0;
+  width: -moz-max-content;
+  width: max-content;
   top: 50px;
 }
 header > nav .gnb > li .sub li a {

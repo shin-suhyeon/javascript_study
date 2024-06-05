@@ -30,7 +30,7 @@ header > nav .gnb > li {
 header > nav .gnb > li:last-child {margin:0;}
 header > nav .gnb > li > a {}
 header > nav .gnb > li > .sub {
-    position:absolute; width:100%;
+    position:absolute; width:max-content;
     left:0; top:50px;
 }
 header > nav .gnb > li > .sub li {}
